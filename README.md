@@ -5,7 +5,7 @@ A demonstration of particle tracking model for the Laurentian Great Lakes. This 
 
 Clone this repository to a local directory and prepare a Python environment as described in the OceanTracker [documentation](https://oceantracker.github.io/oceantracker/_build/html/info/installing.html). Ensure all Python packages imported in the code are installed in the environment before executing the Python file corresponding to the simulation you wish to run. 
 
-Further description of simulations in this repository will be added as they become available.
+Hydrodynamic model output must be downloaded (using utils/nc_compressor.py or another tool) before the demo experiment or the Jupyter notebook can run. 
 
 # Associated work
 
