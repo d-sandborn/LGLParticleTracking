@@ -12,11 +12,11 @@ t = time.time()  # start the clock
 print("Running Scenario: `Surface Plume Transport'.")
 import numpy as np
 import pandas as pd
-from oceantracker.main import OceanTracker
+from ..oceantracker.main import OceanTracker
 import pyproj as proj
 from matplotlib import pyplot as plt
 import datetime
-from utils.mapping import (
+from ..utils.mapping import (
     plot_heatmap_stats,
 )
 from oceantracker.post_processing.read_output_files import load_output_files
@@ -24,15 +24,15 @@ from oceantracker.post_processing.plotting.plot_tracks import plot_tracks
 from matplotlib.transforms import offset_copy
 import cartopy.crs as ccrs
 import cartopy.io.img_tiles as cimgt
-from oceantracker.post_processing.plotting import plot_statistics
-from oceantracker.post_processing.plotting import plot_utilities
-from oceantracker.post_processing.plotting.plot_utilities import (
+from ..oceantracker.post_processing.plotting import plot_statistics
+from ..oceantracker.post_processing.plotting import plot_utilities
+from ..oceantracker.post_processing.plotting.plot_utilities import (
     add_credit,
     add_map_scale_bar,
     plot_release_points_and_polygons,
     add_heading,
 )
-from oceantracker.post_processing.plotting.plot_tracks import animate_particles
+from ..oceantracker.post_processing.plotting.plot_tracks import animate_particles
 from mpl_toolkits.axes_grid1.anchored_artists import AnchoredSizeBar
 import matplotlib.font_manager as font_manager
 import matplotlib
