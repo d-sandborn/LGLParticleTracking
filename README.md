@@ -1,13 +1,15 @@
 # LGLParticleTracking
-A demonstration of particle tracking model for the Laurentian Great Lakes. This code is associated with work by Daniel E. Sandborn and Jay A. Austin (Large Lakes Observatory, University of Minesota Duluth), and provides a public archive supporting manuscripts in preparation. 
+A demonstration of particle tracking model for the Laurentian Great Lakes. This code is associated with work by Daniel E. Sandborn (School of Oceanography, University of Washington) and Jay A. Austin (Large Lakes Observatory, University of Minesota Duluth), and provides a public archive supporting manuscripts in preparation. 
 
 # To Use
 
-Clone this repository to a local directory and prepare a Python environment as described in the OceanTracker [documentation](https://oceantracker.github.io/oceantracker/_build/html/info/installing.html). Ensure all Python packages imported in the code are installed in the environment before executing the Python file corresponding to the simulation you wish to run. 
+Clone this repository to a local directory and prepare a Python environment as described in the OceanTracker [documentation](https://oceantracker.github.io/oceantracker/_build/html/info/installing.html). Ensure all Python packages imported in the code are installed in the environment before executing the Python file corresponding to the simulation you wish to run. Hydrodynamic model output must be downloaded (using utils/nc_compressor.py or another tool) before the demo experiment or the Jupyter notebook can run. 
 
-Hydrodynamic model output must be downloaded (using utils/nc_compressor.py or another tool) before the demo experiment or the Jupyter notebook can run. 
+Please reach out to the authors with questions or suggestions!
 
 # Associated work
+
+Sandborn, D.E.; Austin, J.A.; and Lafrancois, B.M. "Developing a Lake Superior particle tracking model for research and management applications". NPS Reports. _In review._
 
 ## OceanTracker
 
@@ -21,5 +23,5 @@ Provides hydrodynamic model output which drives particle transport in this syste
 
 ### Cite
 
-Until the release of a publication, please cite:
-Sandborn, D.E.; Austin J.A. "LGLParticleTracking" (2024) *Github repository*
+Please cite:
+Sandborn, D.E.; Austin J.A. (2025). "LGLParticleTracking" https://github.com/d-sandborn/LGLParticleTracking
